@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.header{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 2px;
+}
+.container {
+    width: 550px;
+    height: 500px;
+    background-color: rgb(230, 219, 219);
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4%;
+    border: 3px solid black;
+    border-radius: 50px;
+    padding: 30px 0;
+}
+
+.choices li{
+    display: inline-block;
+    margin-right: 0.8rem;
+}
+button{
+    padding: 10px 20px;
+    width: 7rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    border-radius: 10px;
+    border: 1.5px solid black;
+    letter-spacing: 1px;
+}
+#user-choice, #computer-choice, #result{
+    font-size: 1.75rem;
+    font-weight: bold;
+    
+}
+#user-choice, #computer-choice{
+    color: red;
+}
+#result{
+    font-style: italic;
+    font-weight: 600;
+    color: green;
+}
+li button{
+    color: white;
+    background-color: rgb(105, 105, 205);
+}
+.play{
+    color: white;
+    background-color: red;
+}
+.rock:hover, .paper:hover, .scissors:hover {
+    cursor: pointer;
+    border: 1.5px solid rgb(105, 105, 205);
+}
+.rock:active, .paper:active, .scissors:active {
+    background-color: rgb(52, 52, 192);
+    color: black;
+}
+.play:hover {
+    cursor: pointer;
+    border: 1.5px solid red;
+}
+.play:active {
+    background-color: rgb(204, 28, 28);
+    color: black;
+}
